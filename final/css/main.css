@@ -561,6 +561,10 @@ footer a:hover {
 	float: left;
 	}
 	
+h1 {
+	margin: 0 0 0 20px;
+}	
+	
 	#profile {
 		width: 80%;
 		height: auto;
@@ -583,6 +587,7 @@ footer a:hover {
 
 li {
 	padding: 0;
+	margin: 0;
 	
 }
 
@@ -593,10 +598,11 @@ li a {
 
 ul {
 	float: left;
+	margin: 0;
 }
 
 footer {
-	height: 175px;
+	height: 150px;
 	text-align: center;
 	
 }
@@ -604,14 +610,124 @@ footer {
 footer p, a {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12pt;
-	
+	font-size: 8pt;
 	padding-top: 30px;
-	-webkit-transition-property: color; 
-	-webkit-transition-duration: .5s, .5s; 
-	-webkit-transition-timing-function: linear, ease-in;
+
 }
+
+.project-img {
+	width: 300px;
+	height: auto;
+	margin: 0;
+	float: left;
+	padding: 0;
 }
+
+.project-title {
+	font-size: 24pt;
+}
+
+.project-desc {
+	font-size: 14pt;
+	text-align: center;
+	width: 275px;
+	margin: 0 auto;
+	padding: 0 0 15px;
+}
+
+#project {
+	background-color: #fff;
+	width: 300px;
+	height: 1950px;
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+#project2 {
+	height: 950px;
+	background-color: #fff;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#project3 {
+	height: 1650px;
+	background-color: #fff;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+#project4 {
+	height: 800px;
+	background-color: #fff;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+#project5 {
+	height: 1150px;
+	background-color: #fff;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#project6 {
+	height: 650px;
+	background-color: #fff;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+#project7 {
+	height: 800px;
+	background-color: #fff;
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.process {
+	
+	width: 300px;
+	height: 3800px;
+	margin: 0 auto;
+	text-align: center;
+	}
+	
+.post-title {
+	font-size: 24pt;
+	margin: ;
+	margin-bottom: 15px;
+}
+
+.post-desc {
+	width: 750px;
+	font-size: 14pt;
+	text-align: center;
+	width: 275px;
+	margin: 0 auto;
+	padding: 0 0 15px;
+	color: #474441;
+	
+}
+
+.post-img {
+	width: 300px;
+	height: auto;
+	margin: 0;
+	float: left;
+	padding: 0;
+}
+
+.post-img li {
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
 
 }
 
